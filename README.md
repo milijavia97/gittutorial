@@ -1,4 +1,4 @@
-![LOGO](git.png)
+![Git](git.png)
 # Python
 
 **Introduction**
