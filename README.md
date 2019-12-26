@@ -66,4 +66,4 @@ before executing it. This is similar to PERL and PHP.
 - Simplify Complex Software Development
 - Adopt Test Driven Development
 
-
+This site was built using [GitHub Pages](https://pages.github.com/).
