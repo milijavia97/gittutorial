@@ -1,3 +1,4 @@
+![GitHub Logo](/images/logo.png)
 # Python
 
 **Introduction**
