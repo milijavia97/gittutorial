@@ -1,4 +1,4 @@
-![GitHub Logo](/images/logo.png)
+![LOGO](git.png)
 # Python
 
 **Introduction**
