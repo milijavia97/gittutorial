@@ -45,7 +45,7 @@ range of applications from simple text processing to WWW browsers to games.
 
 - A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.
 
--Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.
+- Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.
 
 - Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms.
 
