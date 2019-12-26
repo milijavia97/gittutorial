@@ -1,5 +1,5 @@
 ![Git](git.png)
-                                                          # Python
+   # Python
 
 **Introduction**
 
