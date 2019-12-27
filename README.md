@@ -115,3 +115,14 @@ language called “Byte code”.Thus, after successful execution of Python scrip
 - Step 3 : Byte code is sent to the Python Virtual Machine(PVM).Here again the byte code is executed on PVM.If an error occurs during this execution then the execution 
 is halted with an error message.
 
+**Command Line Arguments:-**
+
+The command line arguments in python can be processed by using either ‘sys’ module or ‘argparse’ module.
+
+>import sys 
+ argumentList = sys.argv 
+ print argumentList 
+   
+ print sys.argv[0] 
+ print sys.argv[1] 
+
