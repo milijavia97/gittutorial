@@ -147,6 +147,9 @@ g = raw_input("Enter your name : ")
 
 print g 
 
+###### Output:Enter your name :
+Mili Javia
+
 ###### Input( ): 
 
 This function first takes the input from the user and then evaluates the expression, which means Python automatically identifies whether user entered a string or a number or list. If the input provided is not correct then either syntax error or exception is raised by python.
@@ -161,16 +164,32 @@ print(name1)
 print ("type of number", type(num)) 
 print ("type of name", type(name1)) 
 
-print("GeeksForGeeks") 
+###### Output:
+>Enter number : 1505
+>Enter name : Mili Javia
 
-  
-x = 5
+>Mili Javia
+
+>typeofnumber<class 'str'>
+>typeofname<class 'str'>
+
+**Output in python:-**
+
+print("VeryGoodMorning") 
+
+x = 12
 ###### Two objects are passed: 
 >print("x =", x) 
   
 ###### Code for disabling the softspace feature:  
->print('G', 'F', 'G', sep ='') 
+>print('V', 'G', 'M', sep ='') 
   
 ###### Using end argument: 
->print("Python", end = '@')   
+>print("Person", end = '@')   
 >print("GeeksforGeeks")  
+
+###### Output:
+>VeryGoodMorning
+>x = 12
+>VGM
+>Person@VeryGoodMorning
