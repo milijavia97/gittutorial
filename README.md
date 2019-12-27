@@ -159,3 +159,17 @@ print(name1)
 ###### Printing type of input value 
 print ("type of number", type(num)) 
 print ("type of name", type(name1)) 
+
+print("GeeksForGeeks") 
+
+  
+x = 5
+###### Two objects are passed 
+>print("x =", x) 
+  
+###### Code for disabling the softspace feature  
+>print('G', 'F', 'G', sep ='') 
+  
+###### Using end argument 
+>print("Python", end = '@')   
+>print("GeeksforGeeks")  
