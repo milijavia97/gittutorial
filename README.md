@@ -206,3 +206,22 @@ print("VeryGoodMorning")
 >VGM
 
 >Person@VeryGoodMorning
+
+
+
+
+
+###### Python Arithmetic Operators
+![A1](a1.PNG)
+###### Python Assignment Operators
+![A2](a2.PNG)
+###### Python Comparison Operators
+![A3](a3.PNG)
+###### Python Logical Operators
+![A4](a4.PNG)
+###### Python Identity Operators
+![A5](a5.PNG)
+###### Python Membership Operators
+![A6](a6.PNG)
+###### Python Bitwise Operators
+![A7](a7.PNG)
