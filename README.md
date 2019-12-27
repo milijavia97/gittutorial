@@ -70,7 +70,7 @@ before executing it. This is similar to PERL and PHP.
 **Python implemetations/Versions:-**
 
 - Cpython:-
-       The default implementation of the Python programming language is Cpython. As the name suggests Cpython is written in C language. Cpython compiles the python source 
+The default implementation of the Python programming language is Cpython. As the name suggests Cpython is written in C language. Cpython compiles the python source. 
 code into intermediate bytecode, which is executed by the Cpython virtual machine. CPython is distributed with a large standard library written in a mixture of C and Python. 
 CPython provides the highest level of compatibility with Python packages and C extension modules. All versions of the Python language are implemented in C because CPython is 
 the reference implementation.
