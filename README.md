@@ -120,9 +120,11 @@ is halted with an error message.
 The command line arguments in python can be processed by using either ‘sys’ module or ‘argparse’ module.
 
 >import sys 
- argumentList = sys.argv 
- print argumentList 
+>argumentList = sys.argv 
+ 
+>print argumentList 
    
- print sys.argv[0] 
- print sys.argv[1] 
+>print sys.argv[0] 
+ 
+>print sys.argv[1] 
 
