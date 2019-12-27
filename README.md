@@ -57,7 +57,7 @@ before executing it. This is similar to PERL and PHP.
 
 - Scalable − Python provides a better structure and support for large programs than shell scripting.
 
->Importance:
+**Importance:**
 
 - Readable and Maintainable Code
 - Multiple Programming Paradigms
@@ -67,9 +67,9 @@ before executing it. This is similar to PERL and PHP.
 - Simplify Complex Software Development
 - Adopt Test Driven Development
 
->Python implemetations/Versions:-
+**Python implemetations/Versions:-**
 
-- Cpython:-
+> Cpython:-
        The default implementation of the Python programming language is Cpython. As the name suggests Cpython is written in C language. Cpython compiles the python source 
 code into intermediate bytecode, which is executed by the Cpython virtual machine. CPython is distributed with a large standard library written in a mixture of C and Python. 
 CPython provides the highest level of compatibility with Python packages and C extension modules. All versions of the Python language are implemented in C because CPython is 
@@ -77,17 +77,17 @@ the reference implementation.
 Some of the implementations which are based on CPython runtime core but with extended behavior or features in some aspects are Stackless Python, wpython, MicroPython.
 Stackless Python – CPython with an emphasis on concurrency using tasklets and channels (used by dspython for the Nintendo DS).
 
-- Jython:-
+> Jython:-
 Jython is an implementation of the Python programming language that can run on the Java platform. Jython programs use Java classes instead of Python modules.
 Jython compiles into Java byte code, which can then be run by Java virtual machine. Jython enables the use of Java class library functions from the Python program. 
 Jython is slow as compared to Cpython and lacks compatibility with CPython libraries.
 
-- IronPython:-
+> IronPython:-
 A Python implementation written in C# targeting Microsoft’s .NET framework. Similar to Jython, it uses .Net Virtual Machine i.e Common Language Runtime. 
 IronPython can use the .NET Framework and Python libraries, and other .NET languages can use Python code very efficiently. IronPython performs better in 
 Python programs that use threads or multiple cores, as it has a JIT, and also because it doesn’t have the Global Interpreter Lock.
 
-- PyPy:-
+> PyPy:-
 “If you want your code to run faster, you should probably just use PyPy.” — Guido van Rossum (creator of Python)
 Python is dynamic programming language. Python is said to be slow as the default CPython implementation compiles the python source code in bytecode which is 
 slow as compared to machine code(native code). Here PyPy comes in.
@@ -97,7 +97,7 @@ So basically JIT makes it possible to compile the source code into native machin
 PyPy also comes with default with support for stackless mode, providing micro-threads for massive concurrency. 
 Python is said to be approximately 7.5 times faster than Cpython.
 
->Python Toolchain:-
+**Python Toolchain:-**
 
 Python is an object oriented programming language like Java. Python is called an interpreted language. Python uses code modules that are interchangeable 
 instead of a single long list of instructions that was standard for functional programming languages. The standard implementation of python is called “cpython”. 
