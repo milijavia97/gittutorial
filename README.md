@@ -23,7 +23,7 @@ before executing it. This is similar to PERL and PHP.
 
 4. Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
 
->Characteristics of Python:
+**Characteristics of Python:**
 
 - It supports functional and structured programming methods as well as OOP.
 
@@ -35,7 +35,7 @@ before executing it. This is similar to PERL and PHP.
 
 - It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
 
->Features of python:
+**Features of python:**
 
 - Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.
 
