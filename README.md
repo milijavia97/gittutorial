@@ -67,4 +67,49 @@ before executing it. This is similar to PERL and PHP.
 - Simplify Complex Software Development
 - Adopt Test Driven Development
 
+>Python implemetations/Versions:-
+
+-Cpython:-
+       The default implementation of the Python programming language is Cpython. As the name suggests Cpython is written in C language. Cpython compiles the python source 
+code into intermediate bytecode, which is executed by the Cpython virtual machine. CPython is distributed with a large standard library written in a mixture of C and Python. 
+CPython provides the highest level of compatibility with Python packages and C extension modules. All versions of the Python language are implemented in C because CPython is 
+the reference implementation.
+Some of the implementations which are based on CPython runtime core but with extended behavior or features in some aspects are Stackless Python, wpython, MicroPython.
+Stackless Python – CPython with an emphasis on concurrency using tasklets and channels (used by dspython for the Nintendo DS).
+
+-Jython:-
+Jython is an implementation of the Python programming language that can run on the Java platform. Jython programs use Java classes instead of Python modules.
+Jython compiles into Java byte code, which can then be run by Java virtual machine. Jython enables the use of Java class library functions from the Python program. 
+Jython is slow as compared to Cpython and lacks compatibility with CPython libraries.
+
+-IronPython:-
+A Python implementation written in C# targeting Microsoft’s .NET framework. Similar to Jython, it uses .Net Virtual Machine i.e Common Language Runtime. 
+IronPython can use the .NET Framework and Python libraries, and other .NET languages can use Python code very efficiently. IronPython performs better in 
+Python programs that use threads or multiple cores, as it has a JIT, and also because it doesn’t have the Global Interpreter Lock.
+
+-PyPy:-
+“If you want your code to run faster, you should probably just use PyPy.” — Guido van Rossum (creator of Python)
+Python is dynamic programming language. Python is said to be slow as the default CPython implementation compiles the python source code in bytecode which is 
+slow as compared to machine code(native code). Here PyPy comes in.
+PyPy is an implementation of the Python programming language written in Python. The Interpreter is written in RPython (a subset of Python).
+PyPy uses (just-in-time compilation). In simple terms JIT uses compilation methods to make interpreter system more efficient and fast. 
+So basically JIT makes it possible to compile the source code into native machine code which makes it very fast.
+PyPy also comes with default with support for stackless mode, providing micro-threads for massive concurrency. 
+Python is said to be approximately 7.5 times faster than Cpython.
+
+>Python Toolchain:-
+
+Python is an object oriented programming language like Java. Python is called an interpreted language. Python uses code modules that are interchangeable 
+instead of a single long list of instructions that was standard for functional programming languages. The standard implementation of python is called “cpython”. 
+It is the default and widely used implementation of the Python.Python doesn’t convert its code into machine code, something that hardware can understand. 
+It actually converts it into something called byte code. So within python, compilation happens, but it’s just not into a machine language. 
+It is into byte code and this byte code can’t be understood by CPU. So we need actually an interpreter called the python virtual machine. 
+The python virtual machine executes the byte codes.
+![Toolchain](toolchain.png)
+-Step 1 : The interpreter reads a python code or instruction. Then it verifies that the instruction is well formatted, i.e. it checks the syntax of each line.
+If it encounters any error, it immediately halts the translation and shows an error message.
+-Step 2 : If there is no error, i.e. if the python instruction or code is well formatted then the interpreter translates it into its equivalent form in intermediate 
+language called “Byte code”.Thus, after successful execution of Python script or code, it is completely translated into Byte code.
+-Step 3 : Byte code is sent to the Python Virtual Machine(PVM).Here again the byte code is executed on PVM.If an error occurs during this execution then the execution 
+is halted with an error message.
 
