@@ -168,11 +168,13 @@ print ("type of name", type(name1))
 
 ###### Output:
 >Enter number : 1505
+
 >Enter name : Mili Javia
 
 >Mili Javia
 
 >typeofnumber<class 'str'>
+
 >typeofname<class 'str'>
 
 
@@ -189,10 +191,14 @@ print('V', 'G', 'M', sep ='')
   
 ###### Using end argument: 
 print("Person", end = '@')   
+
 print("GeeksforGeeks")  
 
 ###### Output:
 >VeryGoodMorning
+
 >x = 12
+
 >VGM
+
 >Person@VeryGoodMorning
