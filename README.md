@@ -106,7 +106,7 @@ It actually converts it into something called byte code. So within python, compi
 It is into byte code and this byte code can’t be understood by CPU. So we need actually an interpreter called the python virtual machine. 
 The python virtual machine executes the byte codes.
 
-![Toolchain](Toolchain.png)
+![Toolchain](toolchain.PNG)
 
 -Step 1 : The interpreter reads a python code or instruction. Then it verifies that the instruction is well formatted, i.e. it checks the syntax of each line.
 If it encounters any error, it immediately halts the translation and shows an error message.
