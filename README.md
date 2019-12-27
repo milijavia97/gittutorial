@@ -178,6 +178,7 @@ print ("type of name", type(name1))
 >typeofname<class 'str'>
 
 
+
 **Output in python:-**
 
 print("VeryGoodMorning") 
