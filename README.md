@@ -179,6 +179,8 @@ print ("type of name", type(name1))
 
 
 
+
+
 **Output in python:-**
 
 print("VeryGoodMorning") 
