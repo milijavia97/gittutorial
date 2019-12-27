@@ -119,6 +119,7 @@ is halted with an error message.
 
 The command line arguments in python can be processed by using either ‘sys’ module or ‘argparse’ module.
 
+##Example 1:-
 >import sys 
 >argumentList = sys.argv 
  
@@ -127,4 +128,11 @@ The command line arguments in python can be processed by using either ‘sys’ 
 >print sys.argv[0] 
  
 >print sys.argv[1] 
+
+##Exmaple 2:-
+>import sys 
+>from math import factorial 
+  
+>print factorial(int(sys.argv[1]))
+
 
