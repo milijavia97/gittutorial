@@ -192,7 +192,7 @@ print('V', 'G', 'M', sep ='')
 ###### Using end argument: 
 print("Person", end = '@')   
 
-print("GeeksforGeeks")  
+print("VeryGoodMorning")  
 
 ###### Output:
 >VeryGoodMorning
