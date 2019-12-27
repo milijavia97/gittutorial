@@ -164,6 +164,7 @@ print(name1)
 ###### Printing type of input value: 
 
 print ("type of number", type(num)) 
+
 print ("type of name", type(name1)) 
 
 ###### Output:
