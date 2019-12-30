@@ -228,7 +228,7 @@ print("VeryGoodMorning")
 
 **Python Data Types**
 
-- Built-in Data Types
+###### Built-in Data Types
 
 Text Type:	str
 Numeric Types:	int, float, complex
@@ -238,14 +238,38 @@ Set Types:	set, frozenset
 Boolean Type:	bool
 Binary Types:	bytes, bytearray, memoryview
 
-- Getting the Data Type
+###### Getting the Data Type
 
 >x = 5
 >print(type(x))
 
-- Setting the Data Type
+###### Setting the Data Type
 ![DT](DT.PNG)
 
-- Setting the Specific Data Type
+###### Setting the Specific Data Type
 ![SDT](SDT.PNG)
 
+**List in Python**
+
+###### Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+
+- List is a collection which is ordered and changeable. Allows duplicate members.
+- Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+- Set is a collection which is unordered and unindexed. No duplicate members.
+- Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+
+###### List
+A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+
+> alist = ["raspberry", "blueberry", "strawberry"]
+> print(alist)
+
+###### Access Items
+You access the list items by referring to the index number:
+
+> alist = ["raspberry", "blueberry", "strawberry"]
+> print(alist[2])
+
+###### Negative Indexing
+Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
