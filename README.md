@@ -209,7 +209,7 @@ print("VeryGoodMorning")
 
 
 
-
+**Operators in Python**
 
 ###### Python Arithmetic Operators
 ![A1](a1.PNG)
@@ -308,3 +308,20 @@ To change the value of a specific item, refer to the index number:
 >alist[1] = "blackberry"
 
 >print(alist)
+
+###### Loop through a list
+
+alist = ["orange", "apricot", "jackfruit"]
+for x in alist:
+print(x)
+
+###### Check if Item Exists
+
+alist = ["orange", "apricot", "jackfruit"]
+if "apple" in alist:
+  print("Yes, 'apricot' is in the fruits list")
+  
+###### List Length
+
+alist = ["orange", "apricot", "jackfruit"]
+print(len(alist)
