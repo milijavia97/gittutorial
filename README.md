@@ -358,3 +358,11 @@ A tuple is a collection which is ordered and unchangeable. In Python tuples are 
 ![Tup](Tup.PNG)
 
 ![TupO](TupO.PNG)
+
+**Set**
+
+A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
+
+>set = {"apple", "banana", "cherry"}
+>print(set)
+
