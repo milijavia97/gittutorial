@@ -225,3 +225,27 @@ print("VeryGoodMorning")
 ![A6](a6.PNG)
 ###### Python Bitwise Operators
 ![A7](a7.PNG)
+
+**Python Data Types**
+
+- Built-in Data Types
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+
+- Getting the Data Type
+
+>x = 5
+>print(type(x))
+
+- Setting the Data Type
+![DT](DT.PNG)
+
+- Setting the Specific Data Type
+![SDT](SDT.PNG)
+
