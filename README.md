@@ -377,4 +377,7 @@ The range() function returns a sequence of numbers, starting from 0 by default, 
 
 >Format:- range(start, stop, step)
 
+![Range](Range.PNG)
+
+![Range1](Range1.PNG)
 
