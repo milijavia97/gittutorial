@@ -345,9 +345,9 @@ To change the value of a specific item, refer to the index number:
 
 **Dynamic input in List**
 
-![Dlist].(Dlist.PNG)
+![Dlist](Dlist.PNG)
 
-![Dlist2].(Dlist2.PNG)
+![Dlist2](Dlist2.PNG)
 
 **Tuples in Python**
 
@@ -355,6 +355,6 @@ To change the value of a specific item, refer to the index number:
 
 A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
 
-![Tup].(Tup.PNG)
+![Tup](Tup.PNG)
 
-![TupO].(TupO.PNG)
+![TupO](TupO.PNG)
