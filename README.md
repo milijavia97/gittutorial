@@ -338,3 +338,22 @@ To change the value of a specific item, refer to the index number:
 > alist.append("cherry")
 
 > print(alist)
+
+###### Other methods in List
+
+![List](List.PNG)
+
+**Dynamic input in List**
+
+![Dlist].(Dlist.PNG)
+
+![Dlist2].(Dlist2.PNG)
+
+**Tuples in Python**
+
+###### Tuple
+
+A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+
+![Tup].(Tup.PNG)
+![TupO].(TupO.PNG)
