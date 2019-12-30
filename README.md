@@ -230,19 +230,19 @@ print("VeryGoodMorning")
 
 ###### Built-in Data Types
 
-Text Type:	str
+- Text Type:	str
 
-Numeric Types:	int, float, complex
+- Numeric Types:	int, float, complex
 
-Sequence Types:	list, tuple, range
+- Sequence Types:	list, tuple, range
 
-Mapping Type:	dict
+- Mapping Type:	dict
 
-Set Types:	set, frozenset
+- Set Types:	set, frozenset
 
-Boolean Type:	bool
+- Boolean Type:	bool
 
-Binary Types:	bytes, bytearray, memoryview
+- Binary Types:	bytes, bytearray, memoryview
 
 
 ###### Getting the Data Type
@@ -311,17 +311,30 @@ To change the value of a specific item, refer to the index number:
 
 ###### Loop through a list
 
-alist = ["orange", "apricot", "jackfruit"]
-for x in alist:
-print(x)
+>alist = ["orange", "apricot", "jackfruit"]
+
+>for x in alist:
+
+>print(x)
 
 ###### Check if Item Exists
 
-alist = ["orange", "apricot", "jackfruit"]
-if "apple" in alist:
-  print("Yes, 'apricot' is in the fruits list")
+>alist = ["orange", "apricot", "jackfruit"]
+
+>if "apple" in alist:
+
+>print("Yes, 'apricot' is in the fruits list")
   
 ###### List Length
 
-alist = ["orange", "apricot", "jackfruit"]
-print(len(alist)
+>alist = ["orange", "apricot", "jackfruit"]
+
+>print(len(alist)
+
+###### Add Items
+
+> alist = ["orange", "apricot", "jackfruit"]
+
+> alist.append("cherry")
+
+> print(alist)
