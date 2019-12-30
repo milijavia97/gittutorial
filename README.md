@@ -288,13 +288,23 @@ You can specify a range of indexes by specifying where to start and where to end
 When specifying a range, the return value will be a new list with the specified items.
 
 > alist = ["raspberry", "cherry", "orange","strawberry", "kiwi","blueberry", "mango"]
+
 > print(alist[1:4])
 
 This example returns the items from the beginning to "strawberry"
 
->print(alist[:4])
+> print(alist[:4])
 
 This example returns the items from index -5 (included) to index -2 (excluded):-
 
 > print(alist[-5:-2])
 > OUTPUT:- [cherry,orange,strawberry]
+
+###### Change Item Value
+To change the value of a specific item, refer to the index number:
+
+>alist = ["orange", "apricot", "jackfruit"]
+
+>alist[1] = "blackberry"
+
+>print(alist)
