@@ -281,6 +281,7 @@ You access the list items by referring to the index number:
 ###### Negative Indexing
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
 
+![Tutorial](Tutorial.PNG)
 
 ###### Range of Indexes
 You can specify a range of indexes by specifying where to start and where to end the range.
@@ -298,7 +299,6 @@ This example returns the items from the beginning to "strawberry"
 This example returns the items from index -5 (included) to index -2 (excluded):-
 
 > print(alist[-5:-2])
-> OUTPUT:- [cherry,orange,strawberry]
 
 ###### Change Item Value
 To change the value of a specific item, refer to the index number:
