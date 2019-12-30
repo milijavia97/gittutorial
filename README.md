@@ -231,12 +231,19 @@ print("VeryGoodMorning")
 ###### Built-in Data Types
 
 Text Type:	str
+
 Numeric Types:	int, float, complex
+
 Sequence Types:	list, tuple, range
+
 Mapping Type:	dict
+
 Set Types:	set, frozenset
+
 Boolean Type:	bool
+
 Binary Types:	bytes, bytearray, memoryview
+
 
 ###### Getting the Data Type
 
@@ -273,3 +280,21 @@ You access the list items by referring to the index number:
 
 ###### Negative Indexing
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
+
+
+###### Range of Indexes
+You can specify a range of indexes by specifying where to start and where to end the range.
+
+When specifying a range, the return value will be a new list with the specified items.
+
+> alist = ["raspberry", "cherry", "orange","strawberry", "kiwi","blueberry", "mango"]
+> print(alist[1:4])
+
+This example returns the items from the beginning to "strawberry"
+
+>print(alist[:4])
+
+This example returns the items from index -5 (included) to index -2 (excluded):-
+
+> print(alist[-5:-2])
+> OUTPUT:- [cherry,orange,strawberry]
