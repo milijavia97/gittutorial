@@ -370,3 +370,11 @@ A set is a collection which is unordered and unindexed. In Python sets are writt
 ![Set](Set.PNG)
 
 ![SetO](SetO.PNG)
+
+**Range in python**
+
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+
+>Format:- range(start, stop, step)
+
+
