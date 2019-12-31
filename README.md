@@ -403,7 +403,10 @@ An array is a special variable, which can hold more than one value at a time.
 >Defining an array:
 
 >arr[5] = [20, 62, 42, 52, 35]
+![ArrPic](ArrPic.PNG)
 
+###### Types of Arrays
+![ArType](ArType.PNG)
 
 **Manipulating Arrays**
 
