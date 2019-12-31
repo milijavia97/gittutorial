@@ -432,6 +432,6 @@ For array manipulation we can use the following methods:
 
 **Creation and use of multidimensional array**
 
-![MDA](MDA.png)
+![MDA](MDA.PNG)
 
 ![MDAO.PNG](MDAO.PNG)
