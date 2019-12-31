@@ -395,3 +395,34 @@ A dictionary is a collection which is unordered, changeable and indexed. In Pyth
 ![Dictionary1](Dictionary1.PNG)
 
 ![Dictionary2](Dictionary2.PNG)
+
+**Arrays**
+
+An array is a special variable, which can hold more than one value at a time.
+
+>Defining an array:
+
+>arr[5] = [20, 62, 42, 52, 35]
+
+
+**Manipulating Arrays**
+
+For array manipulation we can use the following methods:
+
+![Array](Array.PNG)
+
+
+###### Creating Arrays
+![Arr](Arr.PNG)
+
+###### Accessing Arrays
+![Arr1](Arr1.PNG)
+
+###### Slicing Arrays
+![Arr2](Arr2.PNG)
+
+###### Append and extend
+![Arr3](Arr3.PNG)
+
+###### Concatenate
+![Arr5](Arr5.PNG)
