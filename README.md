@@ -381,3 +381,7 @@ The range() function returns a sequence of numbers, starting from 0 by default, 
 
 ![Range1](Range1.PNG)
 
+**Strings in Python**
+
+![Str](Str.PNG)
+![StrO](StrO.PNG)
