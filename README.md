@@ -385,3 +385,13 @@ The range() function returns a sequence of numbers, starting from 0 by default, 
 
 ![Str](Str.PNG)
 ![StrO](StrO.PNG)
+
+**Dictionary**
+
+A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+
+![Dictionary](Dictionary.PNG)
+
+![Dictionary1](Dictionary1.PNG)
+
+![Dictionary2](Dictionary2.PNG)
