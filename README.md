@@ -429,3 +429,9 @@ For array manipulation we can use the following methods:
 
 ###### Concatenate
 ![Arr5](Arr5.PNG)
+
+**Creation and use of multidimensional array**
+
+![MDA](MDA.png)
+
+![MDAO.PNG](MDAO.PNG)
