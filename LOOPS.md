@@ -97,4 +97,64 @@ A file containing a set of functions you want to include in your application.
 
 - Variables in module:
 
+![Var](Var.PNG)
+![VarO](VarO.PNG)
 
+
+
+- The from...import Statement
+  
+  Python's from statement lets you import specific attributes from a module into the current namespace.
+
+> from modname import name1[, name2[, ... nameN]]
+
+For example, to import the function fibonacci from the module fib, use the following statement
+
+> from fib import fibonacci
+
+- The from...import * Statement
+   
+   It is also possible to import all names from a module into the current namespace by using the following import statement.
+   
+> from modname import *
+
+
+> The module search path is stored in the system module sys as the sys.path variable. The sys.path variable contains the current directory, PYTHONPATH, and the installation-dependent default.
+
+- The dir() function
+The dir() built-in function returns a sorted list of strings containing the names defined by a module. The list contains the names of all the modules, variables and functions that are defined in a module.
+
+> import platform
+
+> x = dir(platform)
+
+> print(x)
+
+## Function and Function calls
+
+In the most general sense, a function is a structuring element in programming languages to group a set of statements so they can be utilized more than once in a program. The only way to accomplish this without functions would be to reuse code by copying it and adapt it to its different context. Using functions usually enhances the comprehensibility and quality of the program. It also lowers the cost for development and maintenance of the software.
+
+Functions are known under various names in programming languages, e.g. as subroutines, routines, procedures, methods, or subprograms.
+
+> def function-name(Parameter list):
+>    statements, i.e. the function body
+
+Function bodies can contain one or more return statement. They can be situated anywhere in the function body. A return statement ends the execution of the function call and "returns" the result, i.e. the value of the expression following the return keyword, to the caller. If the return statement is without an expression, the special value None is returned. If there is no return statement in the function code, the function ends, when the control flow reaches the end of the function body and the value "None" will be returned.
+
+![Func](Func.PNG)
+![FuncO](FuncO.PNG)
+
+- Return Values
+
+![RV](RV.PNG)  
+![RV2](RV2.PNG) 
+![RV3](RV3.PNG) 
+
+
+- Returning Multiple Values
+
+![RMV](RMV.PNG) 
+
+- Local and Global Values
+
+![local](Local.PNG) 
