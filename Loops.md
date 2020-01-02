@@ -83,3 +83,14 @@ Python supports to have an else statement associated with a loop statements.
 
 >  print("a is greater than b")
 
+- Modules in python:
+
+What is a Module?
+Consider a module to be the same as a code library.
+
+A file containing a set of functions you want to include in your application.
+
+
+![Mod](Mod.PNG)
+![InMod](InMod.PNG)
+!![InModO](InModO.PNG)
