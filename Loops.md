@@ -12,14 +12,15 @@
 
 for iterator_var in sequence: for iterator_var in sequence: statements(s) statements(s)
 
-- Loop Control Statements: 
+## Loop Control Statements: 
+
 Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
 
-Continue Statement: It returns the control to the beginning of the loop.
+- Continue Statement: It returns the control to the beginning of the loop.
 
-Break Statement: It brings control out of the loop
+- Break Statement: It brings control out of the loop
 
-Pass Statement: We use pass statement to write empty loops. Pass is also used for empty control statement, function and classes.
+- Pass Statement: We use pass statement to write empty loops. Pass is also used for empty control statement, function and classes.
 
 ![L1](L1.PNG)
 ![L1O](L1O.PNG)
