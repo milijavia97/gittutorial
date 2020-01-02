@@ -19,6 +19,8 @@ Break Statement: It brings control out of the loop
 
 Pass Statement: We use pass statement to write empty loops. Pass is also used for empty control statement, function and classes.
 
-L1 L1O
+![L1](L1.PNG)
+![L1O](L1O.PNG)
 
-L2 L2O
+![L2](L2.PNG)
+![L2O](L2O.PNG)
