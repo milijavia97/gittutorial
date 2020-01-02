@@ -1,6 +1,7 @@
 ## Loops in python
 
-While Loop: In python, while loop is used to execute a block of statements repeatedly until a given a condition is satisfied. And when the condition becomes false, the line immediately after the loop in program is executed.
+1.While Loop: In python, while loop is used to execute a block of statements repeatedly until a given a condition is satisfied. And when the condition becomes false, the line immediately after the loop in program is executed.
+
 2.For Loop: For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is no C style for loop, i.e., for (i=0; i<n; i++). There is “for in” loop which is similar to for each loop in other languages.
 
 3.Iterating by index of sequences: We can also use the index of elements in the sequence to iterate. The key idea is to first calculate the length of the list and in iterate over the sequence within the range of this length.
@@ -11,7 +12,8 @@ While Loop: In python, while loop is used to execute a block of statements repea
 
 for iterator_var in sequence: for iterator_var in sequence: statements(s) statements(s)
 
-6.Loop Control Statements: Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
+- Loop Control Statements: 
+Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
 
 Continue Statement: It returns the control to the beginning of the loop.
 
@@ -51,18 +53,32 @@ Python supports to have an else statement associated with a loop statements.
 
 - ELIF
 >a = 10
+
 >b = 32
+
 >if b > a:
+
 >  print("b is greater than a")
+
 >elif a == b:
+
 >  print("a and b are equal")
+
 
 - ELIF with else
 >a = 10
+
 >b = 32
+
 >if b > a:
+
 >  print("b is greater than a")
+
 >elif a == b:
+
 >  print("a and b are equal")
+
 >else:
+
 >  print("a is greater than b")
+
