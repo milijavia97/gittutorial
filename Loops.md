@@ -38,3 +38,31 @@ The continue statement in Python returns the control to the beginning of the whi
 
 The continue statement can be used in both while and for loops.
 ![Break](Break.PNG)
+
+## Conditions
+
+Python supports to have an else statement associated with a loop statements.
+
+- If the else statement is used with a for loop, the else statement is executed when the loop has exhausted iterating the list.
+
+- If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
+![If](If.PNG)
+
+- ELIF
+>a = 10
+>b = 32
+>if b > a:
+>  print("b is greater than a")
+>elif a == b:
+>  print("a and b are equal")
+
+- ELIF with else
+>a = 10
+>b = 32
+>if b > a:
+>  print("b is greater than a")
+>elif a == b:
+>  print("a and b are equal")
+>else:
+>  print("a is greater than b")
