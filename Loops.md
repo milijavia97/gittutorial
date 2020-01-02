@@ -1,4 +1,4 @@
-##Loops in python
+## Loops in python
 
 While Loop: In python, while loop is used to execute a block of statements repeatedly until a given a condition is satisfied. And when the condition becomes false, the line immediately after the loop in program is executed.
 2.For Loop: For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is no C style for loop, i.e., for (i=0; i<n; i++). There is “for in” loop which is similar to for each loop in other languages.
@@ -24,3 +24,17 @@ Pass Statement: We use pass statement to write empty loops. Pass is also used fo
 
 ![L2](L2.PNG)
 ![L2O](L2O.PNG)
+
+## Break and Continue in Python
+
+- Break():
+The break statement in Python terminates the current loop and resumes execution at the next statement, just like the traditional break found in C.
+
+The most common use for break is when some external condition is triggered requiring a hasty exit from a loop. The break statement can be used in both while and for loops.
+![Continue](Continue.PNG)
+
+- Continue():
+The continue statement in Python returns the control to the beginning of the while loop. The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop.
+
+The continue statement can be used in both while and for loops.
+![Break](Break.PNG)
