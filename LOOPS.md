@@ -94,3 +94,7 @@ A file containing a set of functions you want to include in your application.
 ![Mod](Mod.PNG)
 ![InMod](InMod.PNG)
 !![InModO](InModO.PNG)
+
+- Variables in module:
+
+
