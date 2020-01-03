@@ -153,3 +153,77 @@ Object2 = Child()
 Object2.Function1()
 ```
 ![](https://codeforwin.org/wp-content/uploads/2017/12/return-value-from-function-in-c.png)
+
+##### Returning Multiple Values
+It is possible to return multiple values from a function in the form of tuple, list, dictionary or an object of a user defined class
+
+- Return as tuple
+
+>>> def function():
+      a = 10; b = 10
+      return a,b
+
+>>> x = function()
+>>> type(x)
+<class 'tuple'>
+>>> x
+(10, 10)
+>>> x ,y = function()
+>>> x  ,y
+(10, 10)
+
+- Return as list
+
+>>> def function():
+      a=10; b=10
+      return [a,b]
+
+>>> x = function()
+>>> x
+[10, 10]
+>>> type(x)
+<class 'list'>
+
+- Return as dictionary
+
+>>> def function():
+      d = dict()
+      a = 10; b = 10
+      d['a'] = a; d['b'] = b
+      return d
+
+>>> x=function()
+>>> x
+{'a': 10, 'b': 10}
+>>> type(x)
+<class 'dict'>
+
+- Return as object of user defined class
+
+>>> class tmp:
+def __init__(self, a,b):
+self.a = a
+self.b = b
+
+
+>>> def function():
+      a = 10; b = 10
+      t = tmp(a,b)
+      return t
+
+>>> x = function()
+>>> type(x)
+<class '__main__.tmp'>
+>>> x.a
+10
+>>> x.b
+10
+
+#####  User-defined functions in Python
+In general, developers can write user-defined functions or it can be borrowed as a third-party library. This also means your own user-defined functions can also be a third-party library for other users. User-defined functions have certain advantages depending when and how they are used. Let ‘s have a look at the following points.
+
+User-defined functions are reusable code blocks; they only need to be written once, then they can be used multiple times. They can even be used in other applications, too.
+These functions are very useful, from writing common utilities to specific business logic. These functions can also be modified per requirement.
+The code is usually well organized, easy to maintain, and developer-friendly. Which means it can support the modular design approach.
+As user-defined functions can be written independently, the tasks of a project can be distributed for rapid application development.
+A well-defined and thoughtfully written user-defined function can ease the application development process.
