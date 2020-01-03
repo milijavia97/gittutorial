@@ -34,9 +34,10 @@ principalAmount = 4000;
         amount = principal*(1+(rate/compounded))
         return compoundRecursion(amount, compounded, newDuration, rate, 1)
 	print (compoundRecursion(principalAmount, compoundedPerYear, durationInYears, interestRate, 0))
+	
 	```
 	
-	![](https://hackernoon.com/hn-images/1*9DxIgwaja_ikvLSxCI4U6g.png)
+![](https://hackernoon.com/hn-images/1*9DxIgwaja_ikvLSxCI4U6g.png)
 
 ##### Inner Function
 Whenever we print any variable inside an inner function, the Python interpreter searches for that variable declaration/initialization
@@ -51,6 +52,33 @@ shown in the below image.
 
 ###### You use inner functions to protect them from everything happening outside of the function, meaning that they are hidden from 
 the global scope
+
+##### Calling Techniques
+
+![](http://pycallgraph.slowchop.com/en/master/_images/filter_none.png)
+
+class Parent: 
+  
+    # constructor of Parent class 
+    def __init__(self): 
+        # Initialization of the Strings 
+        self.String1 ="Hocus"
+        self.String2 ="Pocus"
+  
+    def Function2(self): 
+        print("Function2 : ", self.String1) 
+        return
+
+child class is inheriting from Parent class 
+class Child(Parent): 
+  ![](https://hackernoon.com/hn-images/1*9DxIgwaja_ikvLSxCI4U6g.png)
+
+##### Inner Function
+Whenever we print any variable inside an inner function, the Python interpreter searches for that variable declaration/initialization until four scopes. First, the local scope of the inner function, then the local scope of the enclosing function, then the global scope and at last the built-in module scope. So, the inner function can access the variables declared/initialized in all these four scopes as shown in the below image.
+
+![](https://i1.faceprep.in/Companies-1/closures-in-python-first.png)
+
+###### You use inner functions to protect them from everything happening outside of the function, meaning that they are hidden from the global scope
 
 ##### Calling Techniques
 ![](http://pycallgraph.slowchop.com/en/master/_images/filter_none.png)
@@ -85,4 +113,17 @@ Object2 = Child()
   
 # Calling Function1 using Child class instance 
 Object2.Function1()
-```
+    def Function1(self): 
+        # calling Function2 Method in parent class  
+        self.Function2() 
+        print("Function1 : ", self.String2) 
+        return   
+  
+ Instance of Parent class 
+Object1 = Parent() 
+  
+ Instance of Child class 
+Object2 = Child() 
+  
+ Calling Function1 using Child class instance 
+Object2.Function1()
