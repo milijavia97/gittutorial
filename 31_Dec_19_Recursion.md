@@ -83,7 +83,7 @@ Whenever we print any variable inside an inner function, the Python interpreter 
 ##### Calling Techniques
 ![](http://pycallgraph.slowchop.com/en/master/_images/filter_none.png)
 
-```
+
 class Parent: 
   
     # constructor of Parent class 
