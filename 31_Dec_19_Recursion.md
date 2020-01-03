@@ -152,3 +152,4 @@ Object2 = Child()
  Calling Function1 using Child class instance 
 Object2.Function1()
 ```
+![](https://codeforwin.org/wp-content/uploads/2017/12/return-value-from-function-in-c.png)
