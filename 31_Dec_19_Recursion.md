@@ -16,17 +16,66 @@ As a slightly more difficult exercise, let’s determine the value of a loan or 
 
 ![](https://hackernoon.com/hn-images/1*UqPzTlpM_Ny1VoBjeim39g.png)
 
-
-
 ``` 
 durationInYears = 10;
 interestRate = .06;
 compoundedPerYear = 12 ;
 principalAmount = 4000;
  
-  def compoundInterest(principal, compounded, duration, rate):
-  totalCompounded = duration * compounded
-  for i in range(1, (totalCompounded+1)):
-  principal = principal*(1+(rate/compounded))
-  return principalprint (compoundInterest(principalAmount, compoundedPerYear, durationInYears, interestRate))
+ def compoundRecursion(principal, compounded, duration, rate, numberOfRecursions):
+    if numberOfRecursions == 0:
+        totalDuration = compounded * duration
+    elif numberOfRecursions != 0:
+        totalDuration = duration
+    if duration == 0:
+        return principal
+    else:
+        newDuration = totalDuration - 1
+        amount = principal*(1+(rate/compounded))
+        return compoundRecursion(amount, compounded, newDuration, rate, 1)
+	print (compoundRecursion(principalAmount, compoundedPerYear, durationInYears, interestRate, 0))
 	```
+	
+	![](https://hackernoon.com/hn-images/1*9DxIgwaja_ikvLSxCI4U6g.png)
+
+##### Inner Function
+Whenever we print any variable inside an inner function, the Python interpreter searches for that variable declaration/initialization until four scopes. First, the local scope of the inner function, then the local scope of the enclosing function, then the global scope and at last the built-in module scope. So, the inner function can access the variables declared/initialized in all these four scopes as shown in the below image.
+
+![](https://i1.faceprep.in/Companies-1/closures-in-python-first.png)
+
+###### You use inner functions to protect them from everything happening outside of the function, meaning that they are hidden from the global scope
+
+##### Calling Techniques
+![](http://pycallgraph.slowchop.com/en/master/_images/filter_none.png)
+
+```
+class Parent: 
+  
+    # constructor of Parent class 
+    def __init__(self): 
+        # Initialization of the Strings 
+        self.String1 ="Hocus"
+        self.String2 ="Pocus"
+  
+    def Function2(self): 
+        print("Function2 : ", self.String1) 
+        return
+  
+# Child class is inheriting from Parent class 
+class Child(Parent): 
+  
+    def Function1(self): 
+        # calling Function2 Method in parent class  
+        self.Function2() 
+        print("Function1 : ", self.String2) 
+        return   
+  
+### Instance of Parent class 
+Object1 = Parent() 
+  
+### Instance of Child class 
+Object2 = Child() 
+  
+# Calling Function1 using Child class instance 
+Object2.Function1()
+```
