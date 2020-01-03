@@ -96,7 +96,7 @@ class Parent:
         print("Function2 : ", self.String1) 
         return
   
-# Child class is inheriting from Parent class 
+Child class is inheriting from Parent class 
 class Child(Parent): 
   
     def Function1(self): 
@@ -105,13 +105,13 @@ class Child(Parent):
         print("Function1 : ", self.String2) 
         return   
   
-### Instance of Parent class 
+Instance of Parent class 
 Object1 = Parent() 
   
-### Instance of Child class 
+Instance of Child class 
 Object2 = Child() 
   
-# Calling Function1 using Child class instance 
+Calling Function1 using Child class instance 
 Object2.Function1()
     def Function1(self): 
         # calling Function2 Method in parent class  
@@ -119,11 +119,11 @@ Object2.Function1()
         print("Function1 : ", self.String2) 
         return   
   
- Instance of Parent class 
+Instance of Parent class 
 Object1 = Parent() 
   
- Instance of Child class 
+Instance of Child class 
 Object2 = Child() 
   
- Calling Function1 using Child class instance 
+Calling Function1 using Child class instance 
 Object2.Function1()
