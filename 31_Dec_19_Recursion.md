@@ -39,11 +39,18 @@ principalAmount = 4000;
 	![](https://hackernoon.com/hn-images/1*9DxIgwaja_ikvLSxCI4U6g.png)
 
 ##### Inner Function
-Whenever we print any variable inside an inner function, the Python interpreter searches for that variable declaration/initialization until four scopes. First, the local scope of the inner function, then the local scope of the enclosing function, then the global scope and at last the built-in module scope. So, the inner function can access the variables declared/initialized in all these four scopes as shown in the below image.
+Whenever we print any variable inside an inner function, the Python interpreter searches for that variable declaration/initialization
+
+until four scopes. First, the local scope of the inner function, then the local scope of the enclosing function, then the global scope 
+
+and at last the built-in module scope. So, the inner function can access the variables declared/initialized in all these four scopes as
+
+shown in the below image.
 
 ![](https://i1.faceprep.in/Companies-1/closures-in-python-first.png)
 
-###### You use inner functions to protect them from everything happening outside of the function, meaning that they are hidden from the global scope
+###### You use inner functions to protect them from everything happening outside of the function, meaning that they are hidden from 
+the global scope
 
 ##### Calling Techniques
 ![](http://pycallgraph.slowchop.com/en/master/_images/filter_none.png)
