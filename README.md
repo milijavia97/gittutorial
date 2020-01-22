@@ -435,3 +435,9 @@ For array manipulation we can use the following methods:
 ![MDA](MDA.PNG)
 
 ![MDAO.PNG](MDAO.PNG)
+
+#### Polymorphism:-
+What is Polymorphism : The word polymorphism means having many forms. In programming, polymorphism means same function name 
+(but different signatures) being uses for different types:
+
+![poly](poly.jpg)
